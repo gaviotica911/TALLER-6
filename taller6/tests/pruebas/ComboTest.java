@@ -29,13 +29,12 @@ class ComboTest {
 
 		double descuento = combo.getDescuento();
 
-		// Assert
 		Assertions.assertEquals(15.0, descuento);
 	}
 	@Test
 	public void agregarItemAComboTest() {
 
-		
+
 		ArrayList<Producto> itemsCombo = combo.getItemsCombo();
 
 
@@ -45,10 +44,8 @@ class ComboTest {
 	@Test
 	public void getCaloriasTest() {
 
-		int caloriasCombo = combo.getCalorias();
-
-		// Assert
-		Assertions.assertEquals(500, caloriasCombo);
+		int calCombo = combo.getCalorias();
+		Assertions.assertEquals(500, calCombo);
 	}
 
 }

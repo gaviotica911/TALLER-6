@@ -24,7 +24,7 @@ public class ProductoMenuTest {
 
 	@Test
 	public void constructorTest() {
-		// Arrange
+		
 		String nombre = "Papitas";
 		int precioBase = 4000;
 		int calorias = 100;

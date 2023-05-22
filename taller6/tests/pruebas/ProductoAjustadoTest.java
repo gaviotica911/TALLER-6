@@ -54,7 +54,6 @@ class ProductoAjustadoTest {
 
 		int precio = producto.getPrecio();
 
-		// Assert
 		Assertions.assertEquals(16200, precio);
 	}
 }
